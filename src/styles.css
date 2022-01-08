@@ -1,0 +1,21 @@
+* {
+    font-family: 'Bakbak One', cursive;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Bakbak One', cursive;
+    height: 100%;
+    background-color: rgb(50, 050, 50);
+  }
+  
+  a {
+    font-family: 'Bakbak One', cursive;
+    text-decoration: none;
+  }
+  
+  a:link { color: rgba(250, 240, 240, 0.788); text-decoration: none;}
+  a:visited { color: rgb(250, 236, 236); text-decoration: none;}
+  a:active {color:red} 
