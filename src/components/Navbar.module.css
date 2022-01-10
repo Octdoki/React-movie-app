@@ -7,7 +7,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color: rgb(237,239,233);
+    background-color: rgb(50, 50, 50);
     z-index: 10;
   }
   
@@ -24,8 +24,9 @@
   .pageName {
   position: relative;
   top: 20%;
-  font-size: 20px;
-  text-shadow: 5px 5px #c7cdd4;
+  font-size: 30px;
+  color: #D30000;
+  text-shadow: 5px 5px #665b5b;
   }
   
   /* When you touch the pageName, it would be bigger */
@@ -38,7 +39,7 @@
   display: flex;
   flex-direction: row;
   align-content: center;
-  text-shadow: 5px 5px #c7cdd4;
+  text-shadow: 5px 5px #808080;
   }
   
   /* When you touch the GroupLink, it would be bigger */
@@ -46,15 +47,7 @@
   transform: scale(1.1);
   }
   
-  /* Merry Christmas~ */
-  .MerryChristMas a {
-  color: green;
-  text-shadow: 3px 3px #fcadad;
-  }
-  
-  /* A tag's color which clicked will be green with no underline (red when hover)*/
-  .MerryChristMas a:visited { color: green; text-decoration: none;}
-  .MerryChristMas a:hover { color: rgb(206, 15, 15); text-decoration: none;}
+
   
   /* Search Bar moves to center */
   .searchBar {

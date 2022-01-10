@@ -14,7 +14,7 @@ function Navbar( ){
     return(
         <div className= {styles.container}>
             <div className={styles.pageName}>
-                <Link to={"/"}>YeonFLEX</Link>
+                <Link to={"/"}>YFLEX</Link>
             </div>
             <div className={styles.GroupLink}>
                 {
